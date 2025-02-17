@@ -1,6 +1,6 @@
 .logo
 body{
-    color:rgb(49, 49, 49)
+    color:rgb(255, 255, 255)
 }
 body{
     background-image: url(abstractblack.jpg);
@@ -10,10 +10,10 @@ body{
     width: 200px;;
 }
 .header{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 70px;
-    color: black;
-    text-shadow: 5px 10px 15px rgb(0, 0, 0)
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 10px 15px rgb(151, 126, 126)
 }
 .logo:hover{
     width: 270px;
@@ -38,4 +38,7 @@ body{
     background-color: #318CE7;
     text-decoration: none;
     border-radius: 5px;
+}
+.maintext{
+    color: rgb(255, 255, 255)
 }
