@@ -1,0 +1,26 @@
+ <style> 
+        body{ 
+            color:rgb(0, 0, 0) 
+        } 
+        body{ 
+            background-image: url(cool-white-1920-x-1080-background-xt6zg7rh8f6gvoxi.jpg); 
+            background-size: cover; 
+        }
+        .logo{
+            width: 100px;
+            box-shadow: 5px 10px 50px rgb(33, 63, 47)
+        
+        }
+        .header{
+            font-family:'Courier New', Courier, monospace;
+            font-size:  70px;
+            color:rgb(0, 0, 0);
+            text-shadow: 5px 10px 20px rgb(89, 0, 255)
+        } 
+        .header:hover{
+            color:rgb(214, 0, 0)
+        }
+        .logo:hover{
+            width: 150px
+        }
+    </style>
