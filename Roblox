@@ -1,0 +1,31 @@
+local part = Instance.new("Part", workspace)
+part.Anchored = true
+wait(2)
+part.Position = Vector3.new(10, 1, 1)
+wait(1)
+part.Size = Vector3.new (15, 15, 15)
+wait(1)
+part.Color = Color3.fromRGB(17, 16, 16)
+wait(1)
+part.Shape = Enum.PartType.Wedge
+wait(1)
+part.Rotation = Vector3.new (0, 0, 0)
+wait(2)
+local part = Instance.new("Part", workspace)
+part.Anchored = true
+wait(2)
+part.Position = Vector3.new(10, 1, 16)
+wait(1)
+part.Size = Vector3.new (15, 15, 15)
+wait(1)
+part.Color = Color3.fromRGB(17, 16, 16)
+wait(1)
+part.Shape = Enum.PartType.Wedge
+wait(1)
+part.Rotation = Vector3.new (90, 0, 0)
+wait(2)
+for i = 5, 100, 1 do
+	local part2 = Instance.new('Part', workspace)
+	part2.Size = Vector3.new (0.5, 10, 2)
+	part2.Position = Vector3.new (i, 5, 0)
+end
