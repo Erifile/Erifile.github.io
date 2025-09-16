@@ -12,6 +12,7 @@
     background-color:rgb(115, 115, 228);
     border-radius: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 ul{
@@ -19,6 +20,10 @@ ul{
     font-size: 22px;
 }
 
+.text{
+    color:white;
+    font-size: 22px;
+}
 p{
     color:white;
     font-size: 22px;
@@ -28,27 +33,7 @@ body{
     background:linear-gradient(rgb(19, 19, 90), 80%, black);
 }
 
-.containerHeading1{
-padding-left: 750px;
-padding-right: 750px;
-}
-
-.containerHeading2{
-padding-left: 720px;
-padding-right: 720px;
-}
-
-.containerHeading3{
-padding-left: 620px;
-padding-right: 620px;
-}
-
-.containerHeading4{
-padding-left: 720px;
-padding-right: 720px;
-}
-
-.containerHeading5{
-padding-left: 780px;
-padding-right: 780px;
+.containerHeading{
+display: flex;  /*делает так, чтобы divы не переносились каждый на новую строку и не занимали иее полностью. вместе этого они располагаются в строчку, подстраиваясь под текст в них (засчет тега justify-content) */
+justify-content: center;
 }
