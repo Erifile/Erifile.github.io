@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+header{
+    height: 20vh;
+    border: 2px solid;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+
+.left{
+    border: 2px solid;
+}
+
+.left{
+    width: 30vw;
+}
+.r-bottom{
+display: flex;
+gap: 20px;
+}
+.right{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.r-bottom div{
+width: 100%;
+border: 2px solid;
+}
+.r-top, .r-bottom{
+height: 100%;
+border: 2px solid;
+}
+.r-bottom{
+    border: none;
+}
+footer{
+    height: 10vh;
+    border: 2px solid;
+}
