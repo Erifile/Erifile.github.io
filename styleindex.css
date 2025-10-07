@@ -57,6 +57,19 @@ table{
     color: white;
 }
 
-h2{
+h2, h3, h4, h5, h6{
     color: white;
+    text-align: center;
+}
+
+.Tests{
+    table-layout: fixed;
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+th, td{
+    border: 1px solid;
 }
