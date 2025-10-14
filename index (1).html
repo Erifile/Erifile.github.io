@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="css/indexstyle.css">
 </head>
 <body>
     <header>
@@ -34,10 +34,10 @@
             <div class="newsStart1"></div>
             <div class="newsStart2"></div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="newsArticle"></div>
+        <div class="newsArticle"></div>
+        <div class="newsArticle"></div>
+        <div class="newsArticle"></div>
         </div>
         <div class="newsCentral"></div>
         <div class="newsBottom">
@@ -51,16 +51,63 @@
         <main class="activity">
             <section class="createPost">
                 <p style="font-size: 25px">Create Post</p>
-                <div></div>
-                <div></div>
+                <div class="postText"></div>
+                <div class="postButtons">
+                    <div class="postButton"></div>
+                    <div class="postButton"></div>
+                    <div class="postButton"></div>
+                    <div class="postSendWrap">
+                        <div class="postSend"></div>
+                    </div>
+                </div>
             </section>
-            <section class="stories"></section>
-            <section class="recently"></section>
+            <section class="stories">
+                <div>
+                <p style="font-size: 25px">Stories</p>
+                </div>
+                <div class="storyImgWrap">
+                <div class="storyImg"></div>
+                <div class="storyImg"></div>
+                <div class="storyImg"></div>
+                <div class="storyImg"></div>
+                </div>
+            </section>
+            <section class="recently">
+                <div class="recentPerson">
+                    <div><p style="font-size: 25px">James Morris was tagged</p></div>
+                    <div class="recentPersonPfp"></div>
+                </div>
+                <div class="recentPostWrap">
+                    <div class="recentPostPfp"></div>
+                    <div class="recentPostHeading"></div>
+                </div>
+                <div class="recentPostText"></div>
+                <div class="recentPostImg"></div>
+            </section>
         </main>
         <aside class="relatable">
             <div class="blank"></div>
-            <div class="viewHistory"></div>
-            <div class="people"></div>
+            <div class="viewHistory">
+                <p style="font-size: 25px">Listing you recently viewed</p>
+                <div class="listingGridWrapper">
+                <div class="listingImg"></div>
+                <div class="listingImg"></div>
+                <div class="listingImg"></div>
+                <div class="listingImg"></div>
+                </div>
+                <p style="font-size: 25px">See more</p>
+            </div>
+            <div class="people">
+                <div class="peopleStart">
+                    <p class="peopleStartText" style="font-size: 25px">People you may know</p>
+                    <p class="peopleStartSeeAll" style="font-size: 25px">See all</p>
+                </div>
+                <div class="peopleWrapper">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
         </aside>
     </div>
 </body>
