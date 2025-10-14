@@ -16,7 +16,7 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    height: 6vh;
+    height: 5vh;
 
     justify-content: space-between; /* в итоге, как я понял, 10vw в хедере остаётся на gap, который задаётся этим свойством */
 }
@@ -34,7 +34,7 @@ header{
 .logo{
     width: 6.5%;
     height: 100%;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 50%; 
     position: absolute;
     left: 0;
@@ -44,14 +44,48 @@ header{
     width: 90%;
     height: 100%;
     position: absolute;
-    border: 1px solid;
+    border: 2px solid;
     right: 0;
     border-radius: 5px;
 }
 
 .menu{
-    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+
     width: 50vw;
+    gap: 15px;
+}
+
+.menuWrapBlocks{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.menuWrapBlocks > div{
+    width: 33%;
+    height: 100%;
+    border: 2px solid;
+}
+
+.menuWrapCircles{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    height: 100%;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.menuWrapCircles > div{
+    width: 20%;
+    height: 100%;
+    border: 2px solid;
+    border-radius: 50%;
 }
 
 .news{
@@ -60,6 +94,24 @@ header{
     width: 20vw;
     height: 100%;
     padding: 5px;
+}
+
+.newsStart{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.newsStart1{
+    width: 10%;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.newsStart2{
+    width: 90%;
+    border: 2px solid;
+    border-radius: 5px;
 }
 
 .news > div{
@@ -115,6 +167,7 @@ header{
     flex-direction: column;
     width: 100%;
     height: 25%;
+    padding: 15px;
     border: 2px solid;
 }
 
