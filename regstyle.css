@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+
+}
+
+form input{
+    align-self: center;
+    width: 50%;
+}
+
+#soglasie
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    gap: 20px;
+}
+
+#ok
+{
+    width: auto;
+}
