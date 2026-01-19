@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item
+{
+    background: lightblue;
+    border: 1px solid;
+}
+
+.container
+{
+    display: grid;
+    gap: 5px;
+    /* grid-template-columns: 1fr 2fr 3fr;*/
+    /*fr - отношение  относительно свободного простарснства. если, например, задать 2 колонки по 1fr - они будут делить страницу  пополам. */
+    /* grid-template-columns: 100px 50% 1fr 1fr; работает со всемиединицами измерения. 1фрвданном случае,для 2 последних колонок делить ОСТАВШЕЕСЯ пространство поровну (тк 1фр всегда 100% от оставшегося пространства) */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+/*
+.container{
+    display: grid;
+    gap: 5px;
+    min-height: 100vh;
+    grid-template-columns: 200px 1fr; /* если  не  задатьразмеры контейнеру. то будет видно только  1 строчку, тк только унеё  чётко заданные  размеры.
+    grid-template-rows: 150px 1fr 50px;
+    grid-template-areas: 
+    "h h"
+    "a m"   НАЗВАНИЯ ЗОН. привязаем  через grid area. НО СЕТКА СЛОМАЕТСЯ, ЕСЛИ ПОПЫТАТЬСЯ СДЕЛАТЬ НЕ ПРЯМОУГОЛЬНИК, То ВСЁ ПОЛЕТИТ. гриды работают только с прямоугольниками.
+    "f f";
+}
+
+header{
+    grid-area: h;
+}
+
+aside{
+    grid-area: a;
+}
+
+main{
+    grid-area: m;
+}
+
+footer{
+    grid-area: f;
+}
+.container main, aside, footer, header
+{
+    border: 1px solid;
+    background-color: lightblue;
+}
+*/

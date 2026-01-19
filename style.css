@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    gap: 5px;
+    min-height: 100vh;
+    grid-template-columns: 200px 1fr 1fr 2fr; /* если  не  задатьразмеры контейнеру. то будет видно только  1 строчку, тк только унеё  чётко заданные  размеры. */
+    grid-template-rows: 150px 1fr 50px 50px;
+    grid-template-areas: 
+    "a h h d3"
+    "a m m m"
+    "a d1 d2 d2"
+    "f f d2 d2";
+}
+
+header{
+    grid-area: h;
+}
+
+aside{
+    grid-area: a;
+}
+
+main{
+    grid-area: m;
+}
+
+footer{
+    grid-area: f;
+}
+
+.first{
+    grid-area: d1;
+    background-color: lightblue;
+}
+
+.second{
+    grid-area: d2;
+    background-color: lightblue;
+}
+
+.third{
+    display: flex;
+}
+.container main, aside, footer, header
+{
+    border: 1px solid;
+    background-color: lightblue;
+}
+
